@@ -15,18 +15,11 @@
     float: left;
     padding: 15px;
 }
-
-
-
-
-
-
 div.clearfix{border-color:grey;
     border-width:30px 30px 30px 30px;
     border-style:solid;
      max-width: 1000px;
     overflow:auto;}
-
 .nav {
     list-style-type: none;
     margin: 0;
@@ -34,12 +27,10 @@ div.clearfix{border-color:grey;
     overflow: hidden;
     background-color: #333;
 }
-
 .nav li {
     float: left;
     list-style-type:none;
 }
-
 .nav li a {
     display: inline;
     color: white;
@@ -47,19 +38,12 @@ div.clearfix{border-color:grey;
     padding: 4px 4px;
     text-decoration: none;
 }
-
-
 .nav li a:hover:not(.active) {
     background-color: #111;
 }
-
-
 .active {
     background-color: #4CAF50;
 }
-
-
-
 .header {
     background-color: #9933cc;
     color: #ffffff;
@@ -80,45 +64,35 @@ div.clearfix{border-color:grey;
 .menu li:hover {
     background-color: #0099cc;
 }
-
 .list{display:inline-block;
       font:italic;}
-
 .rite{ max-width: 100%;
     height: auto;}
-
 .type{ max-width: 100%;
     height: auto;}
 
-div.polaroid {
-  width: 33%;
-  background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin-bottom: 25px;
-    margin-left:20px;
-}
-    
-   div.tablet {
-  width: 30%;
-  background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin-bottom: 25px;
-  margin-left:20px;
-} 
-    
-    
-    div.phone {
-  width: 23%;
-  background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin-bottom: 25px;
-        margin-left:20px;
+
+div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
 }
 
-div.container {
-  text-align: center;
-  padding: 10px 20px;
+div.img:hover {
+    border: 1px solid #777;
 }
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
     
     .ten{text-decoration:none;
         color:white;}
@@ -220,26 +194,27 @@ if your website cannot resize and rearange itself depending on what device it is
 </ul>
 </div>
 
-<div class="col-6 col-m-6 polaroid">
-  <img src="http://kogamikirito.github.io/images/desktop.png" alt="Norway" style="width:100%">
-  <div class="container">
-    <p>responsive layout on desktop</p>
-  </div>
+<div class="img">
+  <a target="_blank" href="img_forest.jpg">
+    <img src="http://kogamikirito.github.io/images/tablet.png" alt="Forest" width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
 </div>
 
-<div class="col-8 col-m-8 tablet">
-  <img src="http://kogamikirito.github.io/images/tablet.png" alt="Norway" style="width:100%">
-  <div class="container">
-    <p>responsive layout on tablet</p>
-  </div>
+<div class="img">
+  <a target="_blank" href="img_lights.jpg">
+    <img src="http://kogamikirito.github.io/images/desktop.png" alt="Northern Lights" width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
 </div>
 
-<div class="col-8 col-m-8 phone">
-  <img src="http://kogamikirito.github.io/images/phone.png" alt="Norway" style="width:100%">
-  <div class="container">
-    <p>responsive layout on smartphone</p>
-  </div>
+<div class="img">
+  <a target="_blank" href="img_mountains.jpg">
+    <img src="http://kogamikirito.github.io/images/phone.png" alt="Mountains" width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
 </div>
+
 
 </body>
 </html>
