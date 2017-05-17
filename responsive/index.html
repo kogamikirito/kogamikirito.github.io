@@ -72,23 +72,23 @@ div.clearfix{
     height: auto;}
 
 
-div.img {
-    margin: 5px;
+section.img {
+    margin-left: 100px;
     border: 1px solid #ccc;
     float: left;
     width: 180px;
 }
 
-div.img:hover {
+section.img:hover {
     border: 1px solid #777;
 }
 
-div.img img {
+section.img img {
     width: 100%;
     height: auto;
 }
 
-div.desc {
+section.desc {
     padding: 15px;
     text-align: center;
 }
@@ -96,6 +96,8 @@ div.desc {
     
     .ten{text-decoration:none;
         color:white;}
+
+nav{list-style-type:none;}
     
 /* For mobile phones: */
 [class*="col-"] {
@@ -136,19 +138,19 @@ div.desc {
 </head>
 <body>
 
-<div class="clearfix">
+<section class="clearfix">
 
 
-<div class="header">
+<header class="header">
   <h1 style="text-align:center;">Professional Web Design</h1>
    <p style="text-align:center;">I can make you an search engine optimized and responsive website!</p>
-</div>
+</header>
 
 
 
-<div class="col-3 col-m-3 menu">
+<section class="col-3 col-m-3 menu">
   
-<ul>
+<nav>
     
 <li ><a href="/web importance" class="ten">The importance of web design</a></li>
     
@@ -160,11 +162,11 @@ div.desc {
     
     <li><a href="/index.html" class="ten"> back to homepage</a></li>
   
-</ul>
-</div>
+</nav>
+</section>
 
 
-<div class="col-9 col-m-3">
+<section class="col-9 col-m-3">
 
 <h2 style="text-align:center;"> I Can Make You A Responsive Website</h2>
 
@@ -178,43 +180,45 @@ if your website cannot resize and rearange itself depending on what device it is
 <br>
 <br>
 
-</div>
+</section>
 
 
-    
+   <section class="col-12">
+<hr>
+</section>
 
+<section class="img">
 
-   
+  <figure>
+    <img src="http://kogamikirito.github.io/images/tablet.png" alt="Forest" width="600" height="400">
+  </figure>
+  <div class="desc">example of a responsive page on tablet</div>
+</section>
 
+<section class="img">
+  
+    <figure>
+    <img src="http://kogamikirito.github.io/images/desktop.png" alt="Northern Lights" width="600" height="400">
+  </figure>
+  <div class="desc">example of a responsive page on desktop</div>
+</section>
+
+<section class="img">
   
 
-<div class=" col-12 col-m-12 home nav">
+<figure>
+    <img src="http://kogamikirito.github.io/images/phone.png" alt="Mountains" width="600" height="400">
+  </figure>
+  <div class="desc">example of a responsive page on smartphone</div>
+</section>
+
+<footer class=" col-12 col-m-12 home nav">
 <ul>
 <li> <h3 style="color:orange;">EXAMPLES:</h3></li>
 </ul>
-</div>
+</footer>
 
-<div class="img">
-  
-    <img src="http://kogamikirito.github.io/images/tablet.png" alt="Forest" width="600" height="400">
-  
-  <div class="desc">example of a responsive page on tablet</div>
-</div>
-
-<div class="img">
-  
-    <img src="http://kogamikirito.github.io/images/desktop.png" alt="Northern Lights" width="600" height="400">
-  
-  <div class="desc">example of a responsive page on desktop</div>
-</div>
-
-<div class="img">
-  
-    <img src="http://kogamikirito.github.io/images/phone.png" alt="Mountains" width="600" height="400">
-  
-  <div class="desc">example of a responsive page on smartphone</div>
-</div>
-
+<section
 
 </body>
 </html>
