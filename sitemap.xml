@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
+
+-<urlset xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+<!--<guid value="7aab5ecd-b7ea-4065-a4d7-edda19e4aa37" />-->
+
+<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
+
+
+-<url>
+
+<loc>http://www.everywherewebdesign.com/</loc>
+
+</url>
+
+
+-<url>
+
+<loc>http://www.everywherewebdesign.com/maintain/</loc>
+
+</url>
+
+
+-<url>
+
+<loc>http://www.everywherewebdesign.com/responsive/</loc>
+
+</url>
+
+
+-<url>
+
+<loc>http://www.everywherewebdesign.com/index.html</loc>
+
+</url>
+
+
+-<url>
+
+<loc>http://www.everywherewebdesign.com/contact info/</loc>
+
+</url>
+
+
+-<url>
+
+<loc>http://www.everywherewebdesign.com/web importance/</loc>
+
+</url>
+
+</urlset>
